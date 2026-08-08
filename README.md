@@ -1,5 +1,5 @@
 # RetroArch Shader Preset Collection
-This is the shader preset collection I personally use. The goal is developer intent authenticity while still being easy on the eyes.
+This is the shader preset collection I personally use. The goal is game developer intent authenticity while still being easy on the eyes.
 
 ## Usage
 Clone in `retroarch_dir/shaders/shaders_slang` and load from the repo folder.  
