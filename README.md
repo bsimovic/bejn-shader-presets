@@ -2,8 +2,8 @@
 This is a shader preset collection that I personally use when playing games. The goal is faithfulness to game developer intent while still being easy on the eyes.
 
 ## Usage
-Clone in `retroarch_dir/shaders/shaders_slang` and load from the repo folder.  
-It's important you get the path right because slang presets use relative paths.
+Clone in `RETROARCH_DIR/shaders/shaders_slang` and load from the repo folder, for example: `RETROARCH_DIR/shaders/shaders_slang/bejn-shader-presets`.  
+It's important that you get the path right because slang presets use relative paths.
 
 ## CRT
 The CRT presets use custom configured `ntsc-adaptive` and my own modified version of `crt-nobody` which is included in this repo. I have added an optional parameter that disables scanlines automatically if source content size iz above 240p.
