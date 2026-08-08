@@ -8,7 +8,7 @@ It's important that you get the path right because slang presets use relative pa
 ## CRT
 The CRT presets use custom configured `ntsc-adaptive` and my own modified version of `crt-nobody` which is included in this repo. I have added an optional parameter that disables scanlines dynamically if source content display mode is above 240p.
 
-### Recommended core presets:
+### Recommended system presets:
 - Atari 2600 - `crt-rf`
 - NES, Master System - `crt-composite`
 - SNES, PS1, N64, TG16/PCE - `crt-svideo`
@@ -20,7 +20,7 @@ The CRT presets use custom configured `ntsc-adaptive` and my own modified versio
 I have three presets, one for GB/GBC/GBA, one for NDS/i and one for the PSP. They are very simple: color correction + `uniform-nearest` for better alignment.  
 Those games were made for tiny screens so authenticity here is impossible - better keep it simple instead of aiming for 100% authentic. You can use an LCD shader if you like but I think they look like ass on large displays so I am not including any in my presets.
 
-### Recommended core presets:
+### Recommended system presets:
 - GB, GBC, GBA - `handheld-gb-family`
 - DS, DSi - `handheld-ds-family`
 - PSP - `handheld-psp`
