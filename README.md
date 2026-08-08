@@ -17,7 +17,7 @@ The CRT presets use custom configured `ntsc-adaptive` and my own modified versio
 
 ## Handhelds
 I have three presets, one for GB/GBC/GBA, one for NDS/i and one for the PSP. They are very simple: color correction + `uniform-nearest` for better alignment.  
-Those games were made for tiny screens and LCD shaders look like ass on large displays, better keep it simple here instead of aiming for 100% authentic.
+Those games were made for tiny screens, better keep it simple here instead of aiming for 100% authentic. You can use an LCD shader but I think they look like ass on large displays so I am not including any in my presets.
 
 ### Recommended core presets:
 - GB, GBC, GBA - `handheld-gb-family`
