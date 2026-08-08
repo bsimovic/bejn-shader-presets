@@ -26,7 +26,7 @@ Those games were made for tiny screens so authenticity here is impossible - bett
 - PSP - `handheld-psp`
 
 ## Ghosting
-Some games use ghosting properties of LCD displays or CRTs to blend shadows or create a motion blur effect (F-Zero, Pilotwings, Link's Awakening, etc.).  
+Some games use ghosting properties of LCD displays or CRTs to blend shadows or create transparency effects (F-Zero, Pilotwings, Link's Awakening, etc.).  
 For those games, you can PREPEND (Quick Menu -> Shaders -> Prepend Preset) the `motionblur/mix-frames.slangp` preset that is included with RetroArch.  
 I have not included it in my default presets since not many games need it and it makes the experience blurry - so it's better to do it per-game.
 
