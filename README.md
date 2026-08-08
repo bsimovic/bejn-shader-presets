@@ -12,7 +12,7 @@ The CRT presets use custom configured `ntsc-adaptive` and my own modified versio
 - Atari 2600 - `crt-rf`
 - NES, Master System - `crt-composite`
 - SNES, PS1, N64, TG16/PCE - `crt-svideo`
-- Genesis/Mega Drive - `crt-svideo-2phase` - Blends dithering effects correctly
+- Genesis/Mega Drive - `crt-svideo-2phase` - Blends dithering effects correctly without relying on heuristics
 - PS2, GameCube/Wii, DOS - `crt-rgb` or (`crt-svideo` if it looks too sharp)
 - Arcade - Depends on the cabinet. I usually use `crt-svideo` or `crt-rgb`
 
