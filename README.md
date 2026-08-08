@@ -27,7 +27,8 @@ Those games were made for tiny screens so authenticity here is impossible - bett
 
 ## Ghosting
 Some games use ghosting properties of LCD displays or CRTs to blend shadows or create a motion blur effect (F-Zero, Pilotwings, Link's Awakening, etc.).  
-For those games, you can PREPEND (Quick Menu -> Shaders -> Prepend Preset) the `motionblur/mix-frames.slangp` preset that is included with RetroArch. I have not included it in my default presets since more games don't need it and it makes the experience blurry - so it's better to do it per-game.
+For those games, you can PREPEND (Quick Menu -> Shaders -> Prepend Preset) the `motionblur/mix-frames.slangp` preset that is included with RetroArch.  
+I have not included it in my default presets since more games don't need it and it makes the experience blurry - so it's better to do it per-game.
 
 ## Pixel Shift (for OLEDs)
 I've also built a pixel rotation shader that moves the screen by tiny amounts in set intervals (can be configured.) It's meant for OLED displays, to mitigate the uneven usage of pixels created by scanlines and the CRT mask (it does not, however, mitigate uneven usage due to playing in 4:3, you'll just have to play stretched or use a border shader.)
