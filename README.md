@@ -13,7 +13,7 @@ The CRT presets use custom configured `ntsc-adaptive` and my own modified versio
 - NES, Master System - `crt-composite`
 - SNES, PS1, N64, PS2, GameCube/Wii - `crt-svideo`
 - Genesis/Mega Drive - `crt-svideo-2phase` - Blends dithering effects correctly
-- Arcade - Depends on the cabinet. I ususally use `crt-svideo` or `crt-rgb`
+- Arcade - Depends on the cabinet. I usually use `crt-svideo` or `crt-rgb`
 
 ## Handhelds
 I have three presets, one for GB/GBC/GBA, one for NDS/i and one for the PSP. They are very simple: color correction + `uniform-nearest` for better alignment.  
