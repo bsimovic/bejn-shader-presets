@@ -6,7 +6,7 @@ Clone in `RETROARCH_DIR/shaders/shaders_slang` and load from the repo folder, fo
 It's important that you get the path right because slang presets use relative paths.
 
 ## CRT
-The CRT presets use custom configured `ntsc-adaptive` and my own modified version of `crt-nobody` which is included in this repo. I have added an optional parameter that disables scanlines dynamically if source content display mode is 480i/576i.
+The CRT presets use custom configured `ntsc-adaptive` and my own modified version of `crt-nobody` which is included in this repo. I have added an optional parameter that disables scanlines dynamically if source content display mode is 480i/576i (i.e. not 240p/288p).
 
 ### Recommended system presets:
 - Atari 2600 - `crt-rf`
@@ -33,6 +33,6 @@ I have not included it in my default presets since not many games need it and it
 ## Pixel Shift (for OLEDs)
 I've also built a pixel rotation shader that moves the screen by tiny amounts in set intervals (can be configured.) It's meant for OLED displays, to mitigate the uneven usage of pixels created by scanlines and the CRT mask (it does NOT, however, mitigate uneven usage due to playing in 4:3, you'll just have to play stretched or use a border shader).
 
-It also has an option to dynamically disable vertical shifting if display mode is 480i/576i (if there are no scanlines).
+It also has an option to dynamically disable vertical shifting if display mode is 480i/576i (i.e. not 240p/288p, i.e. there are no scanlines).
 
 To use pixel shift, APPEND (Quick Menu -> Shaders -> Append Preset) the `pixel-shift.slangp` preset found in the repo folder. Make sure you append it AFTER you already load the CRT preset!
