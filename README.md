@@ -3,7 +3,7 @@ This is the shader preset collection I personally use. The goal is game develope
 
 ## Usage
 Clone in `retroarch_dir/shaders/shaders_slang` and load from the repo folder.  
-It's important you get the path right because SLANG presets use relative paths.
+It's important you get the path right because slang presets use relative paths.
 
 ## CRT
 The CRT presets use custom configured `ntsc-adaptive` and my own modified version of `crt-nobody` which is included in this repo. I have added an optional parameter that disables scanlines automatically if source content size iz above 240p.
