@@ -11,7 +11,7 @@ The CRT presets use custom configured `ntsc-adaptive` and my own modified versio
 ### Recommended core presets:
 - Atari 2600 - `crt-rf`
 - NES, Master System - `crt-composite`
-- SNES, PS1, N64, PS2, GameCube/Wii - `crt-svideo` - with adaptive mode enabled
+- SNES, PS1, N64, PS2, GameCube/Wii - `crt-svideo`
 - Genesis - `crt-svideo-2phase` - blends dithering effects correctly
 
 ## Handhelds
