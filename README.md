@@ -6,7 +6,7 @@ Clone in `RETROARCH_DIR/shaders/shaders_slang` and load from the repo folder, fo
 It's important that you get the path right because slang presets use relative paths.
 
 ## CRT
-The CRT presets use custom configured `ntsc-adaptive` and my own modified version of `crt-nobody` which is included in this repo. I have added an optional parameter that disables scanlines automatically if source content size iz above 240p.
+The CRT presets use custom configured `ntsc-adaptive` and my own modified version of `crt-nobody` which is included in this repo. I have added an optional parameter that disables scanlines automatically if source content display mode is above 240p.
 
 ### Recommended core presets:
 - Atari 2600 - `crt-rf`
