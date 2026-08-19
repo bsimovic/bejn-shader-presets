@@ -16,6 +16,8 @@ The CRT presets use custom configured `ntsc-adaptive` and my own modified versio
 - PS2, GameCube/Wii, DOS - `crt-rgb` or (`crt-svideo` if it looks too sharp)
 - Arcade - Depends on the cabinet. I usually use `crt-svideo` or `crt-rgb` for raster displays. Vector-display cabinets are best left as-is.
 
+ I am aware that some of these systems supported better quality video output than I am recommending (e.g. SCART RGB for PS1 or SNES), however they key here is developer intent - most games weren't made with RGB in mind and therefore in my experience look better when playing with S-Video level quality.
+
 ## Handhelds
 I have three presets, one for GB/GBC/GBA, one for NDS/i and one for the PSP. They are very simple: color correction + `uniform-nearest` for better alignment.  
 Those games were made for tiny screens so authenticity here is impossible - better keep it simple instead of aiming for 100% authentic. You can use an LCD shader if you like but I think they look like ass on large displays so I am not including any in my presets.
