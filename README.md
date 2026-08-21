@@ -6,8 +6,10 @@ Clone in `RETROARCH_DIR/shaders/shaders_slang` and load from the repo folder, fo
 It's important that you get the path right because slang presets use relative paths.
 
 ## CRT
-The CRT presets use custom configured `ntsc-adaptive` and my own modified version of `crt-nobody` which is included in this repo. I have added an optional parameter that disables scanlines dynamically if source content display mode is 480i/576i (i.e. not 240p/288p).  
-There are variants for each of the common AV interfaces (RF, Composite, S-Video and RGB SCART) and a 2-phase and 3-phase variant of each except RGB.  
+The CRT presets use custom configured `ntsc-adaptive` and my own modified version of `crt-nobody` which is included in this repo. I have added an optional parameter that disables scanlines dynamically if source content display mode is 480i/576i (i.e. not 240p/288p).
+
+There are variants for each of the common AV interfaces (RF, Composite, S-Video and RGB SCART) and a 2-phase and 3-phase variant of each except RGB.
+
 What's the difference between 2-phase and 3-phase? I don't really know the technical details and I am too lazy to research it but can tell you from the pure end-user perspective:
 - 2-phase is worse quality, there is significant jitter and more horizontal smearing - it's better for systems and games which use heavy horizontal dithering (Sega Genesis/Mega Drive being the prime example)
 - 3-phase is much more tame, there is no visible jitter and much less horizontal smearing
@@ -30,8 +32,10 @@ I have three presets, one for GB/GBC/GBA, one for NDS/i and one for the PSP. The
 Those games were made for tiny screens so authenticity here is impossible - better keep it simple instead of aiming for 100% authentic. You can use an LCD shader if you like but I think they look like ass on large displays so I am not including any in my presets.
 
 ## Motion blur
-Some games use ghosting properties of LCD and CRT displays to blend shadows or create transparency effects (F-Zero, Pilotwings, Link's Awakening, etc.).  
-For those games, you can PREPEND (Quick Menu -> Shaders -> Prepend Preset) the `motionblur/mix-frames.slangp` preset that is included with RetroArch.  
+Some games use ghosting properties of LCD and CRT displays to blend shadows or create transparency effects (F-Zero, Pilotwings, Link's Awakening, etc.).
+
+For those games, you can PREPEND (Quick Menu -> Shaders -> Prepend Preset) the `motionblur/mix-frames.slangp` preset that is included with RetroArch.
+
 I have not included it in my default presets since not many games need it and it makes the experience blurry - so it's better to do it per-game.
 
 ## Pixel Shift (for OLEDs)
