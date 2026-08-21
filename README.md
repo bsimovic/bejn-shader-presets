@@ -21,7 +21,9 @@ What's the difference between 2-phase and 3-phase? I don't really know the techn
 - 3-phase is much more tame, there is no visible jitter and much less horizontal smearing
 
 ## NOCRT
-The goal with the NOCRT presets is making it look like original hardware is connected to a high-quality early 2000s LCD or plasma - I have compared a couple of real systems on a good Phillips LCD from 2004 and the output is almost identical. The presets are the same as for CRT except there is no CRT pass, instead I use `smumberstep` to even out the pixels and make them slightly softer.
+The goal with the NOCRT presets is making it look like original hardware is connected to a high-quality early 2000s LCD or plasma - I have compared a couple of real systems on a good Phillips LCD from 2004 and the output is almost identical.
+
+The presets are the same as for CRT except there is no CRT pass, instead I use `smumberstep` to even out the pixels and make them slightly softer.
 
 ## Recommended core presets:
 While I do offer my recommendations here, in the end it all comes down to **personal preference** and I encourage you to experiment.
