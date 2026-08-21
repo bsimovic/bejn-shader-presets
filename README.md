@@ -1,12 +1,18 @@
 # Personal RetroArch shader collections
-This is a shader preset collection that I personally use when playing games. The goal is faithfulness to game developer intent while still being easy on the eyes. It's a result of weeks of experimentation and the final look is something I am finally satisfied with.
+This is a shader preset collection that I personally use when playing games.
+
+The goal is faithfulness to game developer intent while still being easy on the eyes
+
+It's a result of weeks of experimentation and the final look is something I am finally satisfied with.
 
 ## Usage
-Clone in `RETROARCH_DIR/shaders/shaders_slang` and load from the repo folder, for example: `RETROARCH_DIR/shaders/shaders_slang/bejn-shader-presets`.  
+Clone in `RETROARCH_DIR/shaders/shaders_slang` and load from the repo folder, for example: `RETROARCH_DIR/shaders/shaders_slang/bejn-shader-presets`.
+
 It's important that you get the path right because slang presets use relative paths.
 
 ## CRT
-The CRT presets use custom configured `ntsc-adaptive` and my own modified version of `crt-nobody` which is included in this repo. I have added an optional parameter that disables scanlines dynamically if source content display mode is 480i/576i (i.e. not 240p/288p).
+The CRT presets use custom configured `ntsc-adaptive` and my own modified version of `crt-nobody` which is included in this repo.  
+I have added an optional parameter that disables scanlines dynamically if source content display mode is 480i/576i (i.e. not 240p/288p).
 
 There are variants for each of the common AV interfaces (RF, Composite, S-Video and RGB SCART) and a 2-phase and 3-phase variant of each except RGB.
 
