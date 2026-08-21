@@ -23,7 +23,7 @@ What's the difference between 2-phase and 3-phase? I don't really know the techn
 ## NOCRT
 The goal with the NOCRT presets is making it look like original hardware is connected to a high-quality early 2000s LCD or plasma - I have compared a couple of real systems on a good Phillips LCD from 2004 and the output is almost identical.
 
-The presets are the same as for CRT except there is no CRT pass, instead I use `smumberstep` to even out the pixels and make them slightly softer.
+There is no CRT pass (obviously) and the other difference is that I am using a pass of `smuberstep` to align the pixels and soften them a little bit before the NTSC passes.
 
 ## Recommended core presets:
 While I do offer my recommendations here, in the end it all comes down to **personal preference** and I encourage you to experiment.
