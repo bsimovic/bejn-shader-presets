@@ -36,8 +36,11 @@ While I do offer my recommendations here, in the end it all comes down to **pers
 - Arcade: Depends on the cabinet. I ususally use **S-Video** or **RGB**.
 
 ## Handhelds
-I have three presets, one for GB/GBC/GBA, one for NDS/i and one for the PSP. They are very simple: color correction + `uniform-nearest` for better alignment.  
-Those games were made for tiny screens so authenticity here is impossible - better keep it simple instead of aiming for 100% authentic. You can use an LCD shader if you like but I think they look like ass on large displays so I am not including any in my presets.
+I have three presets, one for GB/GBC/GBA, one for NDS/i and one for the PSP. They are very simple: color correction + `uniform-nearest` for better alignment.
+
+Those games were made for tiny screens so authenticity here is impossible - better keep it simple instead of aiming for 100% authentic.
+
+You can add an LCD shader if you like but I think they look like ass on large displays so I am not including any in my presets.
 
 ## Motion blur
 Some games use ghosting properties of LCD and CRT displays to blend shadows or create transparency effects (F-Zero, Pilotwings, Link's Awakening, etc.).
