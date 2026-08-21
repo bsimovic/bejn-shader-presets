@@ -32,7 +32,7 @@ While I do offer my recommendations here, in the end it all comes down to **pers
 - NES, Master System - **Composite**
 - SNES, PS1, TG16/PCE **S-Video**
 - Genesis/Mega Drive - **2-Phase S-Video**
-- PS2, GameCube/Wii, DOS - `crt-rgb` or (`crt-svideo` if it looks too sharp)
+- PS2, GameCube/Wii, DOS - **RGB** or (**S-Video** if it looks too sharp)
 - Arcade - Depends on the cabinet. I ususally use **S-Video** or **RGB**.
 
 ## Handhelds
