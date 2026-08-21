@@ -28,12 +28,12 @@ There is no CRT pass (obviously) and the other difference is that I am using a p
 ## Recommended core presets:
 While I do offer my recommendations here, in the end it all comes down to **personal preference** and I encourage you to experiment.
 
-- Atari 2600 - **RF**
-- NES, Master System - **Composite**
-- SNES, PS1, TG16/PCE **S-Video**
-- Genesis/Mega Drive - **2-Phase S-Video**
-- PS2, GameCube/Wii, DOS - **RGB** or (**S-Video** if it looks too sharp)
-- Arcade - Depends on the cabinet. I ususally use **S-Video** or **RGB**.
+- Atari 2600: **RF**
+- NES, Master System: **Composite**
+- SNES, PS1, TG16/PCE: **S-Video**
+- Genesis/Mega Drive: **2-Phase S-Video**
+- PS2, GameCube/Wii, DOS: **RGB** or (**S-Video** if it looks too sharp)
+- Arcade: Depends on the cabinet. I ususally use **S-Video** or **RGB**.
 
 ## Handhelds
 I have three presets, one for GB/GBC/GBA, one for NDS/i and one for the PSP. They are very simple: color correction + `uniform-nearest` for better alignment.  
