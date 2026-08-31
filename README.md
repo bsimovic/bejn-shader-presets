@@ -44,7 +44,7 @@ For those games, you can PREPEND (Quick Menu -> Shaders -> Prepend Preset) the `
 I have not included it in my default presets since not many games need it and it makes the experience blurry - so it's better to do it per-game.
 
 ## Pixel Shift (for OLEDs)
-I've also built a pixel rotation shader that moves the screen by tiny amounts in set intervals (can be configured.) It's meant for OLED displays, to mitigate the uneven usage of pixels created by scanlines and the CRT mask (it does NOT, however, mitigate uneven usage due to playing in 4:3, you'll just have to play stretched or use a border shader).
+I've written a pixel rotation shader that moves the screen by tiny amounts in set intervals (can be configured.) It's meant for OLED displays, to mitigate the uneven usage of pixels created by scanlines and the CRT mask (it does NOT, however, mitigate uneven usage due to playing in 4:3, you'll just have to play stretched or use a border shader).
 
 It also has an option to dynamically disable vertical shifting if display mode is 480i/576i (i.e. not 240p/288p, i.e. there are no scanlines).
 
