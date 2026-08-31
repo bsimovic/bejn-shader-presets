@@ -9,7 +9,7 @@ Clone in `RETROARCH_DIR/shaders/shaders_slang` and load from the repo folder, fo
 It's important that you get the path right because slang presets use relative paths.
 
 ## CRT
-The CRT presets use custom configured `ntsc/ntsc-adaptive.slangp` and my own modified version of `crt-nobody` which is included in this repo. I have added an optional parameter that disables scanlines dynamically if source content display mode is 480i/576i (i.e. not 240p/288p).
+The CRT presets use custom configured `ntsc/ntsc-adaptive.slangp` (except for RGB) and my own modified version of `crt-nobody` which is included in this repo. I have added an optional parameter that disables scanlines dynamically if source content display mode is 480i/576i (i.e. not 240p/288p).
 
 There are variants for simulating each of the common AV interfaces (RF, Composite, S-Video and RGB SCART).
 
